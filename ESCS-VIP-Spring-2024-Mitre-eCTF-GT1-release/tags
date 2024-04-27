@@ -1,0 +1,300 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-format	application_processor/Makefile	/^	arm-none-eabi-size --format=berkeley $(BUILD_DIR)\/$(PROJECT).elf$/;"	m
+-format	component/Makefile	/^	arm-none-eabi-size --format=berkeley $(BUILD_DIR)\/$(PROJECT).elf$/;"	m
+APP_PAGES	ectf_tools/update.py	/^APP_PAGES = 28$/;"	v
+APP_PAGES	ectf_tools/utils.py	/^APP_PAGES = 28$/;"	v
+AUTOSEARCH	application_processor/Makefile	/^AUTOSEARCH ?= 1$/;"	m
+AUTOSEARCH	component/Makefile	/^AUTOSEARCH ?= 1$/;"	m
+BLOCK_SIZE	application_processor/inc/simple_crypto.h	22;"	d
+BOARD	application_processor/Makefile	/^BOARD ?= EvKit_V1$/;"	m
+BOARD	component/Makefile	/^BOARD ?= EvKit_V1$/;"	m
+CMSIS_ROOT	application_processor/Makefile	/^CMSIS_ROOT := $(LIBS_DIR)\/CMSIS$/;"	m
+CMSIS_ROOT	component/Makefile	/^CMSIS_ROOT := $(LIBS_DIR)\/CMSIS$/;"	m
+COMPILER	application_processor/Makefile	/^COMPILER := GCC$/;"	m
+COMPILER	component/Makefile	/^COMPILER := GCC$/;"	m
+COMPONENT_ADDR_MASK	application_processor/inc/board_link.h	21;"	d
+COMPONENT_ADDR_MASK	component/inc/board_link.h	21;"	d
+COMPONENT_CMD_ATTEST	application_processor/src/application_processor.c	/^    COMPONENT_CMD_ATTEST$/;"	e	enum:__anon10	file:
+COMPONENT_CMD_ATTEST	component/src/component.c	/^    COMPONENT_CMD_ATTEST$/;"	e	enum:__anon1	file:
+COMPONENT_CMD_BOOT	application_processor/src/application_processor.c	/^    COMPONENT_CMD_BOOT,$/;"	e	enum:__anon10	file:
+COMPONENT_CMD_BOOT	component/src/component.c	/^    COMPONENT_CMD_BOOT,$/;"	e	enum:__anon1	file:
+COMPONENT_CMD_NONE	application_processor/src/application_processor.c	/^    COMPONENT_CMD_NONE,$/;"	e	enum:__anon10	file:
+COMPONENT_CMD_NONE	component/src/component.c	/^    COMPONENT_CMD_NONE,$/;"	e	enum:__anon1	file:
+COMPONENT_CMD_SCAN	application_processor/src/application_processor.c	/^    COMPONENT_CMD_SCAN,$/;"	e	enum:__anon10	file:
+COMPONENT_CMD_SCAN	component/src/component.c	/^    COMPONENT_CMD_SCAN,$/;"	e	enum:__anon1	file:
+COMPONENT_CMD_VALIDATE	application_processor/src/application_processor.c	/^    COMPONENT_CMD_VALIDATE,$/;"	e	enum:__anon10	file:
+COMPONENT_CMD_VALIDATE	component/src/component.c	/^    COMPONENT_CMD_VALIDATE,$/;"	e	enum:__anon1	file:
+CRYPTO_EXAMPLE	application_processor/project.mk	/^CRYPTO_EXAMPLE=0$/;"	m
+CRYPTO_EXAMPLE	component/project.mk	/^CRYPTO_EXAMPLE=0$/;"	m
+CmdFailedError	ectf_tools/utils.py	/^class CmdFailedError(Exception):$/;"	c
+DEBUG	application_processor/Makefile	/^DEBUG = 0$/;"	m
+DEBUG	component/Makefile	/^DEBUG = 0$/;"	m
+DEFAULT_GOAL	application_processor/Makefile	/^override .DEFAULT_GOAL := all$/;"	m
+DEFAULT_GOAL	application_processor/Makefile	/^override .DEFAULT_GOAL := sla$/;"	m
+DEFAULT_GOAL	component/Makefile	/^override .DEFAULT_GOAL := all$/;"	m
+DEFAULT_GOAL	component/Makefile	/^override .DEFAULT_GOAL := sla$/;"	m
+DEPTH	application_processor/Makefile	/^DEPTH := ..\/..\/..\/$/;"	m
+DEPTH	component/Makefile	/^DEPTH := ..\/..\/..\/$/;"	m
+ECTF_CRYPTO_H	application_processor/inc/simple_crypto.h	16;"	d
+ECTF_I2C_REGS	application_processor/inc/simple_i2c_controller.h	/^} ECTF_I2C_REGS;$/;"	t	typeref:enum:__anon11
+ECTF_I2C_REGS	component/inc/simple_i2c_peripheral.h	/^} ECTF_I2C_REGS;$/;"	t	typeref:enum:__anon5
+ENTRY	application_processor/project.mk	/^ENTRY=firmware_startup$/;"	m
+ENTRY	component/project.mk	/^ENTRY=firmware_startup$/;"	m
+ERROR_RETURN	application_processor/inc/board_link.h	23;"	d
+ERROR_RETURN	application_processor/src/application_processor.c	61;"	d	file:
+ERROR_RETURN	component/inc/board_link.h	23;"	d
+FLASH_ADDR	application_processor/src/application_processor.c	56;"	d	file:
+FLASH_MAGIC	application_processor/src/application_processor.c	57;"	d	file:
+HASH_SIZE	application_processor/inc/simple_crypto.h	24;"	d
+HandlerRet	ectf_tools/utils.py	/^HandlerRet = Tuple[bytes, bytes]$/;"	v
+HandlerTy	ectf_tools/utils.py	/^HandlerTy = Callable[..., Awaitable[Tuple[bytes, bytes]]]$/;"	v
+I2C_FREQ	application_processor/inc/simple_i2c_controller.h	27;"	d
+I2C_FREQ	component/inc/simple_i2c_peripheral.h	28;"	d
+I2C_Handler	application_processor/src/simple_i2c_controller.c	/^static void I2C_Handler(void) { MXC_I2C_AsyncHandler(I2C_INTERFACE); }$/;"	f	file:
+I2C_INTERFACE	application_processor/inc/simple_i2c_controller.h	29;"	d
+I2C_INTERFACE	component/inc/simple_i2c_peripheral.h	29;"	d
+I2C_REGS	component/src/simple_i2c_peripheral.c	/^volatile uint8_t* I2C_REGS[6] = {$/;"	v
+I2C_REGS_LEN	component/src/simple_i2c_peripheral.c	/^int I2C_REGS_LEN[6] = {$/;"	v
+IPATH	application_processor/Makefile	/^IPATH := $(IPATH)$/;"	m
+IPATH	component/Makefile	/^IPATH := $(IPATH)$/;"	m
+KEY_SIZE	application_processor/inc/simple_crypto.h	23;"	d
+LIBS_DIR	application_processor/Makefile	/^LIBS_DIR := $(abspath $(MAXIM_PATH)\/Libraries)$/;"	m
+LIBS_DIR	component/Makefile	/^LIBS_DIR := $(abspath $(MAXIM_PATH)\/Libraries)$/;"	m
+LINKERFILE	application_processor/Makefile	/^LINKERFILE ?= $(TARGET_LC).ld$/;"	m
+LINKERFILE	application_processor/Makefile	/^LINKERFILE:=$(LINKERPATH)\/$(LINKERFILE)$/;"	m
+LINKERFILE	application_processor/project.mk	/^LINKERFILE=firmware.ld$/;"	m
+LINKERFILE	component/Makefile	/^LINKERFILE ?= $(TARGET_LC).ld$/;"	m
+LINKERFILE	component/Makefile	/^LINKERFILE:=$(LINKERPATH)\/$(LINKERFILE)$/;"	m
+LINKERFILE	component/project.mk	/^LINKERFILE=firmware.ld$/;"	m
+LINKERPATH	application_processor/Makefile	/^LINKERPATH ?= $(CMSIS_ROOT)\/Device\/Maxim\/$(TARGET_UC)\/Source\/GCC$/;"	m
+LINKERPATH	application_processor/Makefile	/^LINKERPATH:=.$/;"	m
+LINKERPATH	component/Makefile	/^LINKERPATH ?= $(CMSIS_ROOT)\/Device\/Maxim\/$(TARGET_UC)\/Source\/GCC$/;"	m
+LINKERPATH	component/Makefile	/^LINKERPATH:=.$/;"	m
+MAKECMDGOALS	application_processor/Makefile	/^MAKECMDGOALS:=$(.DEFAULT_GOAL)$/;"	m
+MAKECMDGOALS	component/Makefile	/^MAKECMDGOALS:=$(.DEFAULT_GOAL)$/;"	m
+MAXIM_PATH	application_processor/Makefile	/^MAXIM_PATH := $(abspath $(DEPTH))$/;"	m
+MAXIM_PATH	application_processor/Makefile	/^MAXIM_PATH := $(subst \\,\/,$(MAXIM_PATH))$/;"	m
+MAXIM_PATH	component/Makefile	/^MAXIM_PATH := $(abspath $(DEPTH))$/;"	m
+MAXIM_PATH	component/Makefile	/^MAXIM_PATH := $(subst \\,\/,$(MAXIM_PATH))$/;"	m
+MAXIM_SBT_DIR	application_processor/Makefile	/^MAXIM_SBT_DIR := $(subst \\,\/,$(MAXIM_SBT_DIR))$/;"	m
+MAXIM_SBT_DIR	application_processor/Makefile	/^MAXIM_SBT_DIR ?= $(MAXIM_PATH)\/Tools\/SBT$/;"	m
+MAXIM_SBT_DIR	component/Makefile	/^MAXIM_SBT_DIR := $(subst \\,\/,$(MAXIM_SBT_DIR))$/;"	m
+MAXIM_SBT_DIR	component/Makefile	/^MAXIM_SBT_DIR ?= $(MAXIM_PATH)\/Tools\/SBT$/;"	m
+MAX_I2C_MESSAGE_LEN	application_processor/inc/simple_i2c_controller.h	33;"	d
+MAX_I2C_MESSAGE_LEN	component/inc/simple_i2c_peripheral.h	31;"	d
+MAX_REG	application_processor/inc/simple_i2c_controller.h	31;"	d
+MAX_REG	component/inc/simple_i2c_peripheral.h	30;"	d
+MFLOAT_ABI	application_processor/Makefile	/^MFLOAT_ABI ?= softfp$/;"	m
+MFLOAT_ABI	application_processor/project.mk	/^MFLOAT_ABI=soft$/;"	m
+MFLOAT_ABI	component/Makefile	/^MFLOAT_ABI ?= softfp$/;"	m
+MXC_OPTIMIZE_CFLAGS	application_processor/Makefile	/^MXC_OPTIMIZE_CFLAGS := -Og$/;"	m
+MXC_OPTIMIZE_CFLAGS	application_processor/Makefile	/^MXC_OPTIMIZE_CFLAGS ?= -O2$/;"	m
+MXC_OPTIMIZE_CFLAGS	component/Makefile	/^MXC_OPTIMIZE_CFLAGS := -Og$/;"	m
+MXC_OPTIMIZE_CFLAGS	component/Makefile	/^MXC_OPTIMIZE_CFLAGS ?= -O2$/;"	m
+OARD	application_processor/project.mk	/^override BOARD=FTHR_RevA$/;"	m
+OARD	component/project.mk	/^override BOARD=FTHR_RevA$/;"	m
+PAGE_SIZE	ectf_tools/update.py	/^PAGE_SIZE = 8192$/;"	v
+PAGE_SIZE	ectf_tools/utils.py	/^PAGE_SIZE = 8192$/;"	v
+PROJECT	application_processor/Makefile	/^PROJECT ?= $(TARGET_LC)$/;"	m
+PROJECT	component/Makefile	/^PROJECT ?= $(TARGET_LC)$/;"	m
+PROJECTMK	application_processor/Makefile	/^PROJECTMK ?= $(abspath .\/project.mk)$/;"	m
+PROJECTMK	component/Makefile	/^PROJECTMK ?= $(abspath .\/project.mk)$/;"	m
+RECEIVE	application_processor/inc/simple_i2c_controller.h	/^    RECEIVE,$/;"	e	enum:__anon11
+RECEIVE	component/inc/simple_i2c_peripheral.h	/^    RECEIVE,$/;"	e	enum:__anon5
+RECEIVE_DONE	application_processor/inc/simple_i2c_controller.h	/^    RECEIVE_DONE,$/;"	e	enum:__anon11
+RECEIVE_DONE	component/inc/simple_i2c_peripheral.h	/^    RECEIVE_DONE,$/;"	e	enum:__anon5
+RECEIVE_DONE_REG	component/src/simple_i2c_peripheral.c	/^volatile uint8_t RECEIVE_DONE_REG[1];$/;"	v
+RECEIVE_LEN	application_processor/inc/simple_i2c_controller.h	/^    RECEIVE_LEN,$/;"	e	enum:__anon11
+RECEIVE_LEN	component/inc/simple_i2c_peripheral.h	/^    RECEIVE_LEN,$/;"	e	enum:__anon5
+RECEIVE_LEN_REG	component/src/simple_i2c_peripheral.c	/^volatile uint8_t RECEIVE_LEN_REG[1];$/;"	v
+RECEIVE_REG	component/src/simple_i2c_peripheral.c	/^volatile uint8_t RECEIVE_REG[MAX_I2C_MESSAGE_LEN];$/;"	v
+Reset_Handler	application_processor/startup_firmware.S	/^Reset_Handler:$/;"	l
+Reset_Handler	component/startup_firmware.S	/^Reset_Handler:$/;"	l
+SBT	application_processor/Makefile	/^SBT ?= 0$/;"	m
+SBT	component/Makefile	/^SBT ?= 0$/;"	m
+SECRET	deployment/global_secrets.h	1;"	d
+SRCS	application_processor/Makefile	/^SRCS := $(SRCS)$/;"	m
+SRCS	component/Makefile	/^SRCS := $(SRCS)$/;"	m
+STARTUPFILE	application_processor/project.mk	/^STARTUPFILE=startup_firmware.S$/;"	m
+STARTUPFILE	component/project.mk	/^STARTUPFILE=startup_firmware.S$/;"	m
+SUCCESS_RETURN	application_processor/inc/board_link.h	22;"	d
+SUCCESS_RETURN	application_processor/src/application_processor.c	60;"	d	file:
+SUCCESS_RETURN	component/inc/board_link.h	22;"	d
+TARGET	application_processor/Makefile	/^TARGET := MAX78000$/;"	m
+TARGET	component/Makefile	/^TARGET := MAX78000$/;"	m
+TARGET_LC	application_processor/Makefile	/^TARGET_LC := $(subst M,m,$(subst A,a,$(subst X,x,$(TARGET))))$/;"	m
+TARGET_LC	application_processor/Makefile	/^TARGET_LC := max78000$/;"	m
+TARGET_LC	component/Makefile	/^TARGET_LC := $(subst M,m,$(subst A,a,$(subst X,x,$(TARGET))))$/;"	m
+TARGET_LC	component/Makefile	/^TARGET_LC := max78000$/;"	m
+TARGET_UC	application_processor/Makefile	/^TARGET_UC := $(subst m,M,$(subst a,A,$(subst x,X,$(TARGET))))$/;"	m
+TARGET_UC	application_processor/Makefile	/^TARGET_UC := MAX78000$/;"	m
+TARGET_UC	component/Makefile	/^TARGET_UC := $(subst m,M,$(subst a,A,$(subst x,X,$(TARGET))))$/;"	m
+TARGET_UC	component/Makefile	/^TARGET_UC := MAX78000$/;"	m
+TOTAL_SIZE	ectf_tools/update.py	/^TOTAL_SIZE = APP_PAGES * PAGE_SIZE$/;"	v
+TOTAL_SIZE	ectf_tools/utils.py	/^TOTAL_SIZE = APP_PAGES * PAGE_SIZE$/;"	v
+TRANSMIT	application_processor/inc/simple_i2c_controller.h	/^    TRANSMIT,$/;"	e	enum:__anon11
+TRANSMIT	component/inc/simple_i2c_peripheral.h	/^    TRANSMIT,$/;"	e	enum:__anon5
+TRANSMIT_DONE	application_processor/inc/simple_i2c_controller.h	/^    TRANSMIT_DONE,$/;"	e	enum:__anon11
+TRANSMIT_DONE	component/inc/simple_i2c_peripheral.h	/^    TRANSMIT_DONE,$/;"	e	enum:__anon5
+TRANSMIT_DONE_REG	component/src/simple_i2c_peripheral.c	/^volatile uint8_t TRANSMIT_DONE_REG[1];$/;"	v
+TRANSMIT_LEN	application_processor/inc/simple_i2c_controller.h	/^    TRANSMIT_LEN,$/;"	e	enum:__anon11
+TRANSMIT_LEN	component/inc/simple_i2c_peripheral.h	/^    TRANSMIT_LEN,$/;"	e	enum:__anon5
+TRANSMIT_LEN_REG	component/src/simple_i2c_peripheral.c	/^volatile uint8_t TRANSMIT_LEN_REG[1];$/;"	v
+TRANSMIT_REG	component/src/simple_i2c_peripheral.c	/^volatile uint8_t TRANSMIT_REG[MAX_I2C_MESSAGE_LEN];$/;"	v
+UPDATE_COMMAND	ectf_tools/update.py	/^UPDATE_COMMAND = b"\\x00"$/;"	v
+VPATH	application_processor/Makefile	/^VPATH := $(VPATH)$/;"	m
+VPATH	component/Makefile	/^VPATH := $(VPATH)$/;"	m
+__BOARD_LINK__	application_processor/inc/board_link.h	15;"	d
+__BOARD_LINK__	component/inc/board_link.h	15;"	d
+__HOST_MESSAGING__	application_processor/inc/host_messaging.h	15;"	d
+__HeapBase	application_processor/startup_firmware.S	/^__HeapBase:$/;"	l
+__HeapBase	component/startup_firmware.S	/^__HeapBase:$/;"	l
+__HeapLimit	application_processor/startup_firmware.S	/^__HeapLimit:$/;"	l
+__HeapLimit	component/startup_firmware.S	/^__HeapLimit:$/;"	l
+__I2C_SIMPLE_CONTROLLER__	application_processor/inc/simple_i2c_controller.h	15;"	d
+__I2C_SIMPLE_PERIPHERAL__	component/inc/simple_i2c_peripheral.h	16;"	d
+__SIMPLE_FLASH__	application_processor/inc/simple_flash.h	15;"	d
+__StackLimit	application_processor/startup_firmware.S	/^__StackLimit:$/;"	l
+__StackLimit	component/startup_firmware.S	/^__StackLimit:$/;"	l
+__StackTop	application_processor/startup_firmware.S	/^__StackTop:$/;"	l
+__StackTop	component/startup_firmware.S	/^__StackTop:$/;"	l
+__check_defined	deployment/Makefile	/^__check_defined = \\$/;"	m
+__isr_vector	application_processor/startup_firmware.S	/^__isr_vector:$/;"	l
+__isr_vector	component/startup_firmware.S	/^__isr_vector:$/;"	l
+attempt_attest	application_processor/src/application_processor.c	/^void attempt_attest() {$/;"	f
+attempt_boot	application_processor/src/application_processor.c	/^void attempt_boot() {$/;"	f
+attempt_replace	application_processor/src/application_processor.c	/^void attempt_replace() {$/;"	f
+attest	ectf_tools/attestation_tool.py	/^def attest(args):$/;"	f
+attest_component	application_processor/src/application_processor.c	/^int attest_component(uint32_t component_id) {$/;"	f
+board_link_init	application_processor/src/board_link.c	/^void board_link_init(void) {$/;"	f
+board_link_init	component/src/board_link.c	/^int board_link_init(i2c_addr_t addr) {$/;"	f
+boot	application_processor/src/application_processor.c	/^void boot() {$/;"	f
+boot	component/src/component.c	/^void boot() {$/;"	f
+boot	ectf_tools/boot_tool.py	/^def boot(args):$/;"	f
+boot_components	application_processor/src/application_processor.c	/^int boot_components() {$/;"	f
+build_ap	ectf_tools/build_ap.py	/^def build_ap($/;"	f
+build_component	ectf_tools/build_comp.py	/^def build_component($/;"	f
+build_depl	ectf_tools/build_depl.py	/^def build_depl($/;"	f
+check_defined	deployment/Makefile	/^check_defined = \\$/;"	m
+command_message	application_processor/src/application_processor.c	/^} command_message;$/;"	t	typeref:struct:__anon6	file:
+command_message	component/src/component.c	/^} command_message;$/;"	t	typeref:struct:__anon2	file:
+component_cmd_t	application_processor/src/application_processor.c	/^} component_cmd_t;$/;"	t	typeref:enum:__anon10	file:
+component_cmd_t	component/src/component.c	/^} component_cmd_t;$/;"	t	typeref:enum:__anon1	file:
+component_cnt	application_processor/src/application_processor.c	/^    uint32_t component_cnt;$/;"	m	struct:__anon9	file:
+component_id	application_processor/src/application_processor.c	/^    uint32_t component_id;$/;"	m	struct:__anon7	file:
+component_id	application_processor/src/application_processor.c	/^    uint32_t component_id;$/;"	m	struct:__anon8	file:
+component_id	component/src/component.c	/^    uint32_t component_id;$/;"	m	struct:__anon3	file:
+component_id	component/src/component.c	/^    uint32_t component_id;$/;"	m	struct:__anon4	file:
+component_id_to_i2c_addr	application_processor/src/board_link.c	/^i2c_addr_t component_id_to_i2c_addr(uint32_t component_id) {$/;"	f
+component_id_to_i2c_addr	component/src/board_link.c	/^i2c_addr_t component_id_to_i2c_addr(uint32_t component_id) {$/;"	f
+component_ids	application_processor/src/application_processor.c	/^    uint32_t component_ids[32];$/;"	m	struct:__anon9	file:
+component_process_cmd	component/src/component.c	/^void component_process_cmd() {$/;"	f
+decrypt_sym	application_processor/src/simple_crypto.c	/^int decrypt_sym(uint8_t *ciphertext, size_t len, uint8_t *key, uint8_t *plaintext) {$/;"	f
+encrypt_sym	application_processor/src/simple_crypto.c	/^int encrypt_sym(uint8_t *plaintext, size_t len, uint8_t *key, uint8_t *ciphertext) {$/;"	f
+error_codes	ectf_tools/update.py	/^error_codes = [6, 9, 12, 14, 15, 17]$/;"	v
+firmware_startup	application_processor/startup_firmware.S	/^firmware_startup:$/;"	l
+firmware_startup	component/startup_firmware.S	/^firmware_startup:$/;"	l
+flash_entry	application_processor/src/application_processor.c	/^} flash_entry;$/;"	t	typeref:struct:__anon9	file:
+flash_magic	application_processor/src/application_processor.c	/^    uint32_t flash_magic;$/;"	m	struct:__anon9	file:
+flash_simple_erase_page	application_processor/src/simple_flash.c	/^int flash_simple_erase_page(uint32_t address) {$/;"	f
+flash_simple_init	application_processor/src/simple_flash.c	/^void flash_simple_init(void) {$/;"	f
+flash_simple_irq	application_processor/src/simple_flash.c	/^void flash_simple_irq(void) {$/;"	f
+flash_simple_read	application_processor/src/simple_flash.c	/^void flash_simple_read(uint32_t address, uint32_t* buffer, uint32_t size) {$/;"	f
+flash_simple_write	application_processor/src/simple_flash.c	/^int flash_simple_write(uint32_t address, uint32_t* buffer, uint32_t size) {$/;"	f
+flash_status	application_processor/src/application_processor.c	/^flash_entry flash_status;$/;"	v
+fmt	ectf_tools/attestation_tool.py	/^fmt = ($/;"	v
+fmt	ectf_tools/boot_tool.py	/^fmt = ($/;"	v
+fmt	ectf_tools/list_tool.py	/^fmt = ($/;"	v
+fmt	ectf_tools/replace_tool.py	/^fmt = ($/;"	v
+get_provisioned_ids	application_processor/src/application_processor.c	/^int get_provisioned_ids(uint32_t* buffer) {$/;"	f
+hash	application_processor/src/simple_crypto.c	/^int hash(void *data, size_t len, uint8_t *hash_out) {$/;"	f
+i2c_addr_t	application_processor/inc/simple_i2c_controller.h	/^typedef uint8_t i2c_addr_t;$/;"	t
+i2c_addr_t	component/inc/simple_i2c_peripheral.h	/^typedef uint8_t i2c_addr_t;$/;"	t
+i2c_address_is_blacklisted	ectf_tools/utils.py	/^def i2c_address_is_blacklisted(addr):$/;"	f
+i2c_simple_controller_init	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_controller_init(void) {$/;"	f
+i2c_simple_isr	component/src/simple_i2c_peripheral.c	/^void i2c_simple_isr (void) {$/;"	f
+i2c_simple_peripheral_init	component/src/simple_i2c_peripheral.c	/^int i2c_simple_peripheral_init(uint8_t addr) {$/;"	f
+i2c_simple_read_data_generic	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_read_data_generic(i2c_addr_t addr, ECTF_I2C_REGS reg, uint8_t len, uint8_t* buf)$/;"	f
+i2c_simple_read_receive_done	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_read_receive_done(i2c_addr_t addr) {$/;"	f
+i2c_simple_read_receive_len	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_read_receive_len(i2c_addr_t addr) {$/;"	f
+i2c_simple_read_status_generic	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_read_status_generic(i2c_addr_t addr, ECTF_I2C_REGS reg) {$/;"	f
+i2c_simple_read_transmit_done	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_read_transmit_done(i2c_addr_t addr) {$/;"	f
+i2c_simple_read_transmit_len	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_read_transmit_len(i2c_addr_t addr) {$/;"	f
+i2c_simple_write_data_generic	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_write_data_generic(i2c_addr_t addr, ECTF_I2C_REGS reg, uint8_t len, uint8_t* buf) {$/;"	f
+i2c_simple_write_receive_done	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_write_receive_done(i2c_addr_t addr, bool done) {$/;"	f
+i2c_simple_write_receive_len	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_write_receive_len(i2c_addr_t addr, uint8_t len) {$/;"	f
+i2c_simple_write_status_generic	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_write_status_generic(i2c_addr_t addr, ECTF_I2C_REGS reg, uint8_t value) {$/;"	f
+i2c_simple_write_transmit_done	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_write_transmit_done(i2c_addr_t addr, bool done) {$/;"	f
+i2c_simple_write_transmit_len	application_processor/src/simple_i2c_controller.c	/^int i2c_simple_write_transmit_len(i2c_addr_t addr, uint8_t len) {$/;"	f
+image_update	ectf_tools/update.py	/^def image_update(in_file, port):$/;"	f
+init	application_processor/src/application_processor.c	/^void init() {$/;"	f
+issue_cmd	application_processor/src/application_processor.c	/^int issue_cmd(i2c_addr_t addr, uint8_t* transmit, uint8_t* receive) {$/;"	f
+key	application_processor/src/application_processor.c	/^    uint32_t key;$/;"	m	struct:__anon7	file:
+key	application_processor/src/application_processor.c	/^    uint32_t key;$/;"	m	struct:__anon8	file:
+key	component/src/component.c	/^	uint32_t key;$/;"	m	struct:__anon3	file:
+key	component/src/component.c	/^	uint32_t key;$/;"	m	struct:__anon4	file:
+list	ectf_tools/list_tool.py	/^def list(args):$/;"	f
+main	application_processor/src/application_processor.c	/^int main() {$/;"	f
+main	component/src/component.c	/^int main(void) {$/;"	f
+main	ectf_tools/attestation_tool.py	/^def main():$/;"	f
+main	ectf_tools/boot_tool.py	/^def main():$/;"	f
+main	ectf_tools/build_ap.py	/^def main():$/;"	f
+main	ectf_tools/build_comp.py	/^def main():$/;"	f
+main	ectf_tools/build_depl.py	/^def main():$/;"	f
+main	ectf_tools/list_tool.py	/^def main():$/;"	f
+main	ectf_tools/replace_tool.py	/^def main():$/;"	f
+main	ectf_tools/update.py	/^def main():$/;"	f
+opcode	application_processor/src/application_processor.c	/^    uint8_t opcode;$/;"	m	struct:__anon6	file:
+opcode	component/src/component.c	/^    uint8_t opcode;$/;"	m	struct:__anon2	file:
+package_binary	ectf_tools/utils.py	/^def package_binary(bin_path, image_path):$/;"	f
+params	application_processor/src/application_processor.c	/^    uint8_t params[MAX_I2C_MESSAGE_LEN-1];$/;"	m	struct:__anon6	file:
+params	component/src/component.c	/^    uint8_t params[MAX_I2C_MESSAGE_LEN-1];$/;"	m	struct:__anon2	file:
+poll_and_receive_packet	application_processor/src/board_link.c	/^int poll_and_receive_packet(i2c_addr_t address, uint8_t* packet) {$/;"	f
+print_ack	application_processor/inc/host_messaging.h	38;"	d
+print_debug	application_processor/inc/host_messaging.h	30;"	d
+print_error	application_processor/inc/host_messaging.h	22;"	d
+print_hex	application_processor/src/host_messaging.c	/^void print_hex(uint8_t *buf, size_t len) {$/;"	f
+print_hex_debug	application_processor/inc/host_messaging.h	31;"	d
+print_hex_error	application_processor/inc/host_messaging.h	23;"	d
+print_hex_info	application_processor/inc/host_messaging.h	35;"	d
+print_hex_success	application_processor/inc/host_messaging.h	27;"	d
+print_info	application_processor/inc/host_messaging.h	34;"	d
+print_success	application_processor/inc/host_messaging.h	26;"	d
+process_attest	component/src/component.c	/^void process_attest() {$/;"	f
+process_boot	component/src/component.c	/^void process_boot() {$/;"	f
+process_output	ectf_tools/attestation_tool.py	/^def process_output(output, input_list, ser):$/;"	f
+process_output	ectf_tools/boot_tool.py	/^def process_output(output):$/;"	f
+process_output	ectf_tools/list_tool.py	/^def process_output(output):$/;"	f
+process_output	ectf_tools/replace_tool.py	/^def process_output(output, input_list, ser):$/;"	f
+process_scan	component/src/component.c	/^void process_scan() {$/;"	f
+process_validate	component/src/component.c	/^void process_validate() {$/;"	f
+receive_buffer	component/src/component.c	/^uint8_t receive_buffer[MAX_I2C_MESSAGE_LEN];$/;"	v
+recv_input	application_processor/src/host_messaging.c	/^void recv_input(const char *msg, char *buf) {$/;"	f
+replace	ectf_tools/replace_tool.py	/^def replace(args):$/;"	f
+run_shell	ectf_tools/utils.py	/^async def run_shell(cmd: str) -> HandlerRet:$/;"	f
+scan_components	application_processor/src/application_processor.c	/^int scan_components() {$/;"	f
+scan_message	application_processor/src/application_processor.c	/^} scan_message;$/;"	t	typeref:struct:__anon8	file:
+scan_message	component/src/component.c	/^} scan_message;$/;"	t	typeref:struct:__anon4	file:
+secure_receive	application_processor/src/application_processor.c	/^int secure_receive(i2c_addr_t address, uint8_t* buffer) {$/;"	f
+secure_receive	component/src/component.c	/^int secure_receive(uint8_t* buffer) {$/;"	f
+secure_send	application_processor/src/application_processor.c	/^int secure_send(uint8_t address, uint8_t* buffer, uint8_t len) {$/;"	f
+secure_send	component/src/component.c	/^void secure_send(uint8_t* buffer, uint8_t len) {$/;"	f
+send_packet	application_processor/src/board_link.c	/^int send_packet(i2c_addr_t address, uint8_t len, uint8_t* packet) {$/;"	f
+send_packet_and_ack	component/src/board_link.c	/^void send_packet_and_ack(uint8_t len, uint8_t* packet) {$/;"	f
+success_codes	ectf_tools/update.py	/^success_codes = [1, 2, 3, 4, 5, 7, 8, 10, 11, 13, 16, 18, 19, 20]$/;"	v
+symkey	application_processor/src/application_processor.c	/^uint8_t * symkey;$/;"	v
+symkey	component/src/component.c	/^uint8_t * symkey;$/;"	v
+transmit_buffer	component/src/component.c	/^uint8_t transmit_buffer[MAX_I2C_MESSAGE_LEN];$/;"	v
+validate_components	application_processor/src/application_processor.c	/^int validate_components() {$/;"	f
+validate_message	application_processor/src/application_processor.c	/^} validate_message;$/;"	t	typeref:struct:__anon7	file:
+validate_message	component/src/component.c	/^} validate_message;$/;"	t	typeref:struct:__anon3	file:
+validate_pin	application_processor/src/application_processor.c	/^int validate_pin() {$/;"	f
+validate_token	application_processor/src/application_processor.c	/^int validate_token() {$/;"	f
+validated	component/src/component.c	/^uint8_t validated;$/;"	v
+verify_resp	ectf_tools/update.py	/^def verify_resp(ser, print_out=True):$/;"	f
+wait_and_receive_packet	component/src/board_link.c	/^uint8_t wait_and_receive_packet(uint8_t* packet) {$/;"	f
